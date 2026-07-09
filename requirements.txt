@@ -28,3 +28,7 @@ python-dotenv
 # ML utilities
 numpy
 scikit-learn
+
+#local Embedding 
+
+sentence-transformers
