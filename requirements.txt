@@ -32,3 +32,8 @@ scikit-learn
 #local Embedding 
 
 sentence-transformers
+
+
+#streamlit 
+
+streamlit
