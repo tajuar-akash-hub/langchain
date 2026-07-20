@@ -10,7 +10,7 @@ model = ChatGroq(model= "llama-3.3-70b-versatile")
 #define the schema 
 
 class ResumeAnalysis(TypedDict):
-     
+
     key_skills : Annotated[  list[str], "Extract all important technical and soft skills from the resume" ]
 
     summary : Annotated[str, "write a brief summary of the Candidate's profile"]
@@ -60,3 +60,6 @@ result = structured_model.invoke(
 # print(type(result))
 
 print(result)
+
+
+
