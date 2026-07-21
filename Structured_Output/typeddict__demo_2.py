@@ -1,7 +1,6 @@
 from langchain_groq import ChatGroq 
 from dotenv import load_dotenv
 from typing import TypedDict, Annotated, Literal, Optional
-
 load_dotenv()
 
 
@@ -23,6 +22,7 @@ class ResumeAnalysis(TypedDict):
 
 
     candidate_name : Annotated[ str, "Extract the name of the Candidate from the resume" ]
+
 
 
 #create structured output 
